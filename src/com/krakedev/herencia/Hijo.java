@@ -8,6 +8,12 @@ public class Hijo extends Padre {
 		super(defectos, virtudes);
 		this.juguetes = juguetes;
 	}
+	
+	// Calcular el 50% del ahorro del padre
+	@Override
+	public void ahorrar(double monto) {
+		super.ahorrar(monto * 0.5);
+	}
     
 	// Con Override indicamos que sobreescribimos el metodo de padre 
 	@Override
