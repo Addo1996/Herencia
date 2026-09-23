@@ -4,8 +4,8 @@ public class Hijo extends Padre {
 	
 	private int juguetes;
 	
-	public Hijo(int defectos, int virtudes, int juguetes) {
-		super(defectos, virtudes);
+	public Hijo(int defectos, int virtudes, int juguetes, String nombre) {
+		super(defectos, virtudes, nombre);
 		this.juguetes = juguetes;
 	}
 	

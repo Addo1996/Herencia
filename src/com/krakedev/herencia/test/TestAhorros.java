@@ -14,16 +14,19 @@ public class TestAhorros {
 		padre.ahorrar(100);
 		System.out.println(padre.getTotalAhorrado());
 		
-		System.out.println("____Hija heredo el ahorro____");
-		Hija hija = new Hija(5, 9);
+		padre.setNombre("Carlos");
+		System.out.println(padre);
+		
+		System.out.println("____Hija heredo defectos virtudes nombre y ahorros de padre____");
+		Hija hija = new Hija(5, 9 , "Luisa");
 
 		hija.ahorrar(100);
-
+		System.out.println(hija);
 		System.out.println(hija.getTotalAhorrado());
 		
 		
 		System.out.println("____Hijo heredo el ahorro____");
-		Hijo hijo = new Hijo(9, 5, 3);
+		Hijo hijo = new Hijo(9, 5, 3, "Pepe");
 
 		hijo.ahorrar(100);
 

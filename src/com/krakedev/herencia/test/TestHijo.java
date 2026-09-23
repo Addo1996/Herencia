@@ -7,7 +7,7 @@ public class TestHijo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hijo hijo = new Hijo(5, 9, 3);
+		Hijo hijo = new Hijo(5, 9, 3, "Pepe");
 		
 		System.out.println(hijo);
 
